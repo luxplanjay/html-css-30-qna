@@ -1,3 +1,10 @@
 body {
-  background-color: teal;
+  background-color: #fff;
+  color: #212121;
+  font-family: sans-serif;
+}
+
+.card {
+  border: 1px solid black;
+  width: 300px;
 }

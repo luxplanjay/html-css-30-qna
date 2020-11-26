@@ -1,0 +1,17 @@
+.super-table {
+  border-collapse: collapse;
+}
+
+.super-table th,
+.super-table td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.super-table-body tr:nth-child(2n) {
+  background-color: #ccc;
+}
+
+.super-table-body tr:nth-child(2n + 1) {
+  background-color: tomato;
+}

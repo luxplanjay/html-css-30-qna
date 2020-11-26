@@ -1,0 +1,19 @@
+/* .same li:first-child {
+  background-color: teal;
+}
+
+.same li:last-child {
+  background-color: teal;
+} */
+
+.mixed p:first-of-type {
+  background-color: tomato;
+}
+
+.mixed p:last-of-type {
+  background-color: yellow;
+}
+
+.mixed div:first-of-type {
+  background-color: teal;
+}

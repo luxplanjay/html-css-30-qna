@@ -1,0 +1,40 @@
+.container,
+.group-1,
+.group-2,
+.group-3,
+.group-4,
+.box {
+  display: flex;
+  padding: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.container {
+  border-color: #212121;
+}
+
+.group-1 {
+  border-color: #f44336;
+}
+
+.group-2 {
+  border-color: #2196f3;
+  margin-left: auto;
+}
+
+.group-3 {
+  border-color: #4caf50;
+}
+
+.group-4 {
+  border-color: #ffc107;
+}
+
+.box {
+  margin-left: 4px;
+  margin-right: 4px;
+  border-color: #795548;
+  font-weight: 700;
+}

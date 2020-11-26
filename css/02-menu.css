@@ -1,0 +1,17 @@
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  border: 1px solid black;
+}
+
+.menu-link {
+  border: 1px solid tomato;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}

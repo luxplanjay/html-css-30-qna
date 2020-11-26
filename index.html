@@ -3,53 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Цвет и текст</title>
-    <!-- 1 - нормалайз -->
-    <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="css/common.css" />
   </head>
   <body>
-    <ul class="site-nav">
-      <li><a class="link is-current" href="index.html">Главная</a></li>
-      <li><a class="link" href="about.html">О нас</a></li>
+    <ul>
+      <li><a href="01-children.html">Псевдоклассы :*-child и :*-of-type</a></li>
+      <li><a href="02-menu.html">Меню</a></li>
+      <li><a href="03-nth-child.html">Псевдокласс :nth-child</a></li>
+      <li>
+        <a href="04-auto-margin.html">Flexbox и автоматические отступы</a>
+      </li>
+      <li><a href="05-hero.html">Секция Hero</a></li>
     </ul>
-    <hr />
-
-    <!-- Селектор атрибута -->
-    <ul class="links">
-      <li><a href="https://vimeo.com/i8l9r">Видео про котиков</a></li>
-      <li><a href="https://youtube.com/1ig78s">Смешное за неделю</a></li>
-      <li><a href="https://vimeo.com/123">Что посмотреть</a></li>
-      <li><a href="https://youtube.com/gn7u43m">Обзор новых игр</a></li>
-      <li><a href="https://youtube.com/playlist/jk91nl">Что такое веб</a></li>
-      <li><a href="https://youtube.com/playlist/8z12mf7">Основы HTML</a></li>
-      <li><a href="http://myservice.com/gn7u43m">Как сделать пудинг</a></li>
-    </ul>
-
-    <!-- user-select -->
-    <p class="text-1">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis distinctio
-      dicta dolorum, facere ratione saepe amet ex, pariatur doloremque a,
-      adipisci sed molestiae enim ut commodi ad officiis velit.
-    </p>
-
-    <p class="text-2">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni aliquam
-      dignissimos sunt officiis, eaque exercitationem repellendus nam assumenda
-      a nulla accusantium sit vitae at, veniam necessitatibus dicta ut aperiam
-      quo?
-    </p>
-
-    <script>
-      document.body.addEventListener("copy", (e) => {
-        e.preventDefault();
-        const warning = "ЭТО СВОРОВАНО С САЙТА mysite.com";
-        const selection = document.getSelection();
-        event.clipboardData.setData(
-          "text/plain",
-          `${warning} 🔥🔥🔥 ${selection} 🔥🔥🔥 ${warning}`
-        );
-      });
-    </script>
   </body>
 </html>

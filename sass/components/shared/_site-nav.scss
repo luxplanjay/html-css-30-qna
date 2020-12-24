@@ -1,0 +1,12 @@
+.site-nav {
+  display: flex;
+}
+
+.site-nav__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.site-nav__link {
+  display: block;
+  padding: 10px;
+}
